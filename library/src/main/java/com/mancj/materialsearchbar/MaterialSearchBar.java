@@ -286,7 +286,7 @@ public class MaterialSearchBar extends FrameLayout implements View.OnClickListen
      * Setup editText coloring and drawables
      */
     private void setupSearchEditText() {
-        setupCursorColor();
+      //  setupCursorColor();
         searchEdit.setHighlightColor(highlightedTextColor);
 
         if (hintText != null)
